@@ -1,0 +1,21 @@
+.dive-entires {
+  .entry-list {
+    width: 240px;
+    height: 100vh;
+    float: left;
+    padding: 0 5px;
+  }
+
+  .entry-view {
+    margin-left: 250px;
+    padding: 10px;
+    height: 100vh;
+    position: relative;
+
+    .button {
+      position: absolute;
+      right: 30px;
+      top: 30px;
+    }
+  }
+}

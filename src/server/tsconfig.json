@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "../../dist",
+    "noEmit": false,
+    "sourceMap": true,
+    "module": "ESNEXT",
+    "strict": true,
+    "target": "ESNEXT",
+    "moduleResolution": "node"
+  },
+  "exclude": ["../../build", "../client"],
+  "include": [".", "../database"]
+}

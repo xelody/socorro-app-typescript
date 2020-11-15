@@ -1,0 +1,40 @@
+#root {
+  nav {
+    .MuiDrawer-paper {
+      width: 220px;
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .nav-header {
+        height: 300px;
+        width: 100%;
+        background-color: #0077c5;
+        color: white;
+        margin-bottom: 30px;
+        display: flex;
+
+        p {
+          width: 100%;
+          text-align: center;
+          align-self: flex-end;
+        }
+      }
+    }
+  }
+
+  main {
+    padding: 5px;
+    margin-left: 220px;
+    height: 100vh;
+    width: calc(100vw - 220px);
+    background-color: white;
+
+    .title {
+      color: #0077c5;
+      padding: 20px 0;
+    }
+  }
+}
